@@ -1,0 +1,13 @@
+body{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(184, 247, 226);
+}
+h1{
+    background-color:rgb(165, 231, 231);
+    color:rgb(8, 116, 116);
+    text-align: center;
+}
+h3{
+    color:black;
+}
