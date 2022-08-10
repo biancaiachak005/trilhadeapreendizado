@@ -1,0 +1,85 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*utilizando margem como shorthand*/
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-left: 120px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgrey;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding: 50px 10px;
+
+}
+
+
+h1{
+    background-color:darkolivegreen ;
+    color: white;
+}
+span{
+    background-color: darkolivegreen;
+    color: white;
+    display:block;/*altera a propriedade de inline para block-level*/
+}
+p{
+    background-color: rgb(174, 192, 174);
+    color: white;
+    display:inline;/*altera a propriedade de block-level para inline*/
+}
+
+div{
+    background-color: rgb(174, 238, 174);
+    border:solid;
+    margin:10px;
+    padding: 10px;
+}
+
+.box1{
+    background-color: blanchedalmond;
+    width:400px ;
+    height: 50px;
+    position: static;
+    top: 500px;
+    left: 500px;
+}
+
+.box2{
+    background-color:rgb(241, 213, 171);
+    width: 400px;
+    height: 50px;
+    position:relative;
+    top:20px;
+    left: 10px;
+}
+
+.box3{
+    background-color:rgb(245, 212, 164);
+    width: 400px;
+    height: 50px ;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+.box4{
+    background-color:rgb(245, 205, 145) ;
+    width: 400px;
+    height: 50px;
+    position:fixed;
+    top:0px;
+    right:0px;
+}
+
+.box5{
+    background-color: rgb(245, 200, 134) ;
+    width: 400px;
+    height: 50px;
+    position:sticky;
+    top:200px;
+    right: 150px;
+}
